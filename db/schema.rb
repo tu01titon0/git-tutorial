@@ -11,7 +11,6 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 2020_05_06_171805) do
-
   create_table "listings", force: :cascade do |t|
     t.string "name"
     t.string "address"
@@ -31,5 +30,4 @@ ActiveRecord::Schema.define(version: 2020_05_06_171805) do
     t.string "email"
     t.string "password"
   end
-
 end
